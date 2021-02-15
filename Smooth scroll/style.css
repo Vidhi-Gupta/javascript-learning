@@ -1,0 +1,20 @@
+.box1 {
+    height: 400px;
+    width: 100%;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    height: 400px;
+    width: 100%;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    height: 200px;
+    width: 200px;
+}

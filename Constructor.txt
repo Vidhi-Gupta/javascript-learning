@@ -1,0 +1,11 @@
+function Person(name,age,class){
+this.name = name;
+this.age = age;
+this.class = class;
+this.updateAge = function(){
+return ++this.age};
+
+}
+
+let person1 = new Person("Daniel","Blue",27);
+console.log(person1.updateAge())

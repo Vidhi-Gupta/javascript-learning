@@ -1,0 +1,39 @@
+header{
+    width: 80%;
+    height: 400px;
+    margin: 0 10%;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+}
+
+.intro-title {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.intro-content {
+    width: 100%;
+    height: 400px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.intro-content img {
+    height: 50%;
+    width: 50%;
+}
+
+.intro-text {
+    opacity:0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.intro-appear {
+    opacity:1;
+    transform: translateY(0px);
+}

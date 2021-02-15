@@ -1,0 +1,5 @@
+Call back function or Arrow function:
+A function that calls another function. the other function is passed to it.
+The same can also be written using arrow function : func=() -> {};
+requestAnimate function loops throught the function at 60fps
+current time: callback function for requestAnimation needs to have a timestamp which is picked up automatically as DOMHighResTimeStamp
